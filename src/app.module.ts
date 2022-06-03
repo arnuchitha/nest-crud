@@ -11,7 +11,7 @@ import { User } from './users/entities/user.entity';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 3306,
+      port: "",
       username: 'root',
       password: null,
       database: 'nestjs',
